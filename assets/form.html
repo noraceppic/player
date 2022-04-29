@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formulaire</title>
+    
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+    <link rel="stylesheet" href="./css/menu.css">
+  </head>
+  <body>
+    <header>
+      <nav id="navPrincipal">
+        <i class="fa-solid fa-record-vinyl"></i>
+          <ul id="menuPrincipal">
+              <li><a href="./index.html">player</a></li>
+              <li><a href="./form.html">formulaire</a></li>
+          </ul>
+      </nav>
+    </header>
+    <main>
+      <form action="" method="post"></form>
+      <div class="form-group">
+        <label for="mp3">uplaodez votre mp3</label>
+        <input type="file"id="mp3"name="mp3">
+        
+      <div class="form-group">
+        <label for="cover">uplaodez votre image</label>
+        <input type="file"id="cover"name="cover">
+        
+      <div class="form-group">
+        <label for="titre">titre</label>
+        <input type="text"name="title"placeholder="titre du morceau">
+      </div>
+      <div class="form-group">
+        <label for="artiste">artiste</label>
+        <input type="text" name="artiste"placeholder="artiste">
+      </div>
+      <div class="form-group">
+        <select name ="genre">
+          <option>selctionnez un genre</option>
+          <option value="hip hop">hip hop</option>
+          <option value="jazz">jazz</option>
+          <option value="rock">rock</option>
+
+        </select>
+        <label for="hip hop">hiphop</label><input type="radio" name="hiphop">
+        <label for="jazz">jazz</label><input type="radio" name="jazz">
+        <label for="rock">rock</label><input type="radio"name= "rock">
+
+      </div>
+      <div class="form-group">
+        <select name="annee" >
+          <option value="slectionnez l'annee">slectionnez l'annee</option>
+          <option value="1900">1900</option>
+        </select> 
+        
+      </div>
+      <div class="form-group">
+        <input type="text">
+      </div>
+      <div class="form-group">
+        <input type="text">
+      </div>
+      <div class="form-group">
+        <input type="text">
+      </div>
+    
+
+  </body>
+</html>
+

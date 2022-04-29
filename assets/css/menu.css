@@ -1,0 +1,35 @@
+
+@font-face {
+    font-family: "Oswald";
+    src: url(../font/Oswald-VariableFont_wght.ttf);
+}
+body{
+    margin:0;
+}
+#menuPrincipal,#navPrincipal{
+    display: flex;
+    align-items: center;
+    background-color:rgba(42, 151, 66, 0.404);
+}
+
+#menuPrincipal{
+    border:darkred 1px solid;margin: 0;
+    padding: 0;
+
+}
+#menuPrincipal>li{
+    list-style: none;
+    margin:0.5rem;
+}
+
+   .fa-record-vinyl{
+       padding:0 1rem 0 1rem; 
+
+   }
+   #menuPrincipal a{
+       font-family:"Oswald", Arial, Helvetica, sans-serif;
+       text-decoration: none;
+       font-weight: 500;
+       color: black;
+   }
+

@@ -1,0 +1,17 @@
+#playerApp{
+    width: 50%;
+    border: 1px red solid;
+    margin: auto;
+}
+#cover>img{
+    width: 100%;
+}
+#nav{
+    /* flex doit être attribué 
+    au parent */
+    display: flex;
+    justify-content: space-around;
+}
+#nav>img{
+    width: 20%;
+}
